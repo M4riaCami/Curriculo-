@@ -54,12 +54,14 @@ body {
 }
 
 .toggle-button{
+    font-weight: bold;
+    line-height: 100px;
     color: #8d1b1f;
     background: none;
     border: none;
     font-size: 30px;
-    padding: 0 40px;
-    line-height: 40px;
+    padding: 0 auto 0 auto;
+    line-height: 0;
     cursor: pointer;
     display: none;
 }
@@ -69,18 +71,28 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 5px 50px 5px 50px;
+        display: block;
     }
     
     .navbar-logo {
+        text-align: center;
+        justify-content: center;
         font-weight: bold;
         font-size: 55px;
         font-family: 'Abril Fatface', cursive;
-        padding: 0 40px;
-        line-height: 80px;
+        padding: 0 auto 0 auto;
     }
 
-    .toggle-button{
-        display: flex;
+    .toggle-button {
+        text-align: center;
+        justify-content: center;
+        padding: 0 auto 0 auto;
+        display: block;
     }
 
     .links-navbar {
